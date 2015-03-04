@@ -13,7 +13,7 @@
         $scope.iterations = 10;
         determinePi($scope.iterations,$scope);
         $scope.isCalculating = true;
-
+        $scope.graphData = [];
         $scope.calculatePi = function() {
             $scope.isCalculating = true;
             determinePi($scope.iterations,$scope);
